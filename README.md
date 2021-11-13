@@ -1,9 +1,9 @@
 # crypto-ticker
 
-[marketplace]: https://marketplace.visualstudio.com/items?itemName=calvert.crypto-ticker
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/calvert.crypto-ticker)][marketplace]
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/calvert.crypto-ticker)][marketplace]
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/calvert.crypto-ticker)][marketplace]
+> This is a fork of [robertcalvert/vscode-crypto-ticker](https://github.com/robertcalvert/vscode-crypto-ticker), I re-published it with some changes.
+
+Please donate to the original author (robertcalvert):
+
 [![Donate Bitcoin](https://img.shields.io/badge/donate-bitcoin-orange)](https://www.blockchain.com/btc/address/36gjpzeQtePfhU41VkM39XLUywpXVmtoKW)
 
 Welcome to crypto-ticker, a Visual Studio Code extension that allows you to keep an eye on cryptocurrency prices as you code!
@@ -12,7 +12,7 @@ Welcome to crypto-ticker, a Visual Studio Code extension that allows you to keep
 
 The default settings provide a set of basic tickers for BTC, ETH and LTC. The current prices are displayed in USD with colors based on the 24HOUR period.
 
-![Example](https://github.com/robertcalvert/vscode-crypto-ticker/raw/master/images/default.png)
+![Example](https://github.com/forewing/vscode-crypto-ticker/raw/main/images/default.png)
 
 ### Customization
 
@@ -63,7 +63,7 @@ You can fully customize your tickers using the crypto-ticker extension settings.
 
 These example settings create the following tickers:
 
-![Example](https://github.com/robertcalvert/vscode-crypto-ticker/raw/master/images/custom.png)
+![Example](https://github.com/forewing/vscode-crypto-ticker/raw/main/images/custom.png)
 
 ### Template Tags
 

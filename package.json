@@ -7,11 +7,11 @@
 		"ethereum",
 		"litecoin"
 	],
-	"version": "1.2.0",
-	"publisher": "calvert",
+	"version": "1.3.0",
+	"publisher": "forewing",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/robertcalvert/vscode-crypto-ticker"
+		"url": "https://github.com/forewing/vscode-crypto-ticker"
 	},
 	"license": "MIT",
 	"icon": "images/icon.png",
