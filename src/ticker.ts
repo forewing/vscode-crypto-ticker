@@ -29,7 +29,7 @@ export class Ticker {
         this.item = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, priority);
         this.symbol = definition.symbol;
         this.currency = definition.currency || 'USD';
-        this.exchange = definition.exchange || 'CCCAGG';
+        this.exchange = definition.exchange;
         this.template = definition.template || '{symbol} {price}';
 
         // set the configuration properties
@@ -55,7 +55,12 @@ export class Ticker {
         (async () => {
             try {
                 // get the service URL, including the API key when present
-                let url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${this.symbol}&tsyms=${this.currency}&e=${this.exchange}`;
+                let url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${this.symbol}&tsyms=${this.currency}`;
+
+                if (this.exchange !== undefined) {
+                    url += `&e=${this.exchange}`;
+                }
+
                 if (this.apiKey !== '') {
                     url += `&api_key=${this.apiKey}`;
                 }
